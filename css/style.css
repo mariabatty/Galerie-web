@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Spectral', serif;
+  }
+  
+  /* BARRA DE NAVEGACION */
+  .navbar {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
+  
+  .nav-links a:hover {
+    color: #000;
+  }
+  
+  /* HAMBURGUESA */
+  .menu-toggle {
+  display: block;
+  cursor: pointer;
+}
+
+ .btn-login {
+    background-color:transparent;
+    color: black;
+    font-family: 'Spectral', serif;
+    border: 1px solid black;
+    border-radius: 1px;
+    padding: 10px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+  }
+
+
+ .btn-login:hover {
+    background-color: #f5f5f5; 
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
+    transform: translateY(-1px); 
+  }
+
+ /* Logo */ 
+.logo-flotante {
+    background: transparent;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: -40px;
+    z-index: 5;
+    position: relative;
+  }
+  
+  .logo-flotante h1 {
+    font-size: 100px;
+    font-weight: 450;
+    font-family: 'Spectral', serif;
+    color: black; 
+    margin: 0;
+    letter-spacing: 3px;
+  }
+
+
+  .hero {
+    position: relative;
+    background-image: url('../img/hero1.jpg'); 
+    background-size: auto;   
+    background-repeat: no-repeat;     
+    background-position: center center; 
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2; 
+  }
+  
+  .hero h1 {
+    font-size: 75px;
+    font-weight: 500;
+   
+  }
+  
+  .hero p {
+    font-size: 30px;
+    font-weight: 450;
+  }  
+  
+  .footer {
+    background-color: #1f2937; 
+    color: white;
+    text-align: center;
+    padding: 24px 0; 
+    margin-top: 40px; 
+    font-family: 'Spectral', serif;
+    font-size: 16px;
+  }
+  
