@@ -8,7 +8,7 @@
 
   <link rel="stylesheet" href="css/style.css">
 
-     <!-- Fuente Google Fonts -->
+  <!-- Fuente Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
@@ -16,6 +16,7 @@
 </head>
 <body>
 
+    <!-- Barra de Navegacion -->
     <nav class="navbar">
         <div class="container">
       
@@ -24,8 +25,8 @@
             <button id="btn-login" class="btn-login">Iniciar Sesión</button>
       
             <ul class="nav-links" id="nav-links">
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">Proyectos</a></li>
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#proyectos">Proyectos</a></li>
               <li><a href="#">Servicios</a></li>
               <li><a href="#">Contacto</a></li>
             </ul>
@@ -42,13 +43,13 @@
       </nav>
       
 
-  <!-- Logo flotante entre la barra de navegación y el hero -->
-<div class="logo-flotante">
+<!-- Logo flotante entre la barra de navegación y el hero -->
+<div class="logo-galerie">
     <h1>Galerie</h1>
   </div>  
 
-     <!-- Hero -->
-  <section class="hero">
+  <!-- Hero -->
+  <section id="inicio" class="hero">
     <div class="hero-content">
       <h1>El arte del diseño interior.</h1>
       <p>Transformamos espacios en experiencias</p>
@@ -57,45 +58,49 @@
 
   <hr class="linea-divisoria">
 
-  
-  <section class="proyectos">
+  <!-- Proyectos -->
+  <section id="proyectos" class="proyectos">
     <div class="proyectos-container">
       
-      <!-- Columna izquierda -->
-      <div class="proyecto-izquierda">
+      <!-- Nuestro trabajo -->
+      <div class="nuestro-trabajo">
         <img src="img/ourwork.jpg" alt="Nuestro trabajo">
         <h2>Nuestro trabajo...</h2>
-        <p>Descripción corta del proyecto o enfoque del diseño interior.</p>
+        <p>Nuestro enfoque combina creatividad, armonía y funcionalidad para optimizar cada rincón, ofreciendo soluciones personalizadas que elevan la calidad de vida y el bienestar.</p>
       </div>
   
       <!-- Columna derecha -->
       <div class="proyecto-derecha">
         <div class="proyectos-grid">
           <div class="mini-proyecto">
-            <img src="img/trabajo-mini1.jpg" alt="Mini 1">
-            <p><strong>Detalle 1</strong></p>
-            <p class="mini-descripcion">Breve descripción del detalle 1.</p>
+            <img src="img/medellin.jpg" alt="Mini 1">
+            <p><strong>Industrial</strong></p>
+            <p class="mini-descripcion">Ladrillo expuesto, metal y madera: un estilo urbano con carácter.</p>
           </div>
           <div class="mini-proyecto">
-            <img src="img/trabajo-mini2.jpg" alt="Mini 2">
-            <p><strong>Detalle 2</strong></p>
-            <p class="mini-descripcion">Breve descripción del detalle 2.</p>
+            <img src="img/riohacha.jpg" alt="Mini 2">
+            <p><strong>Verde</strong></p>
+            <p class="mini-descripcion">Plantas y diseño en equilibrio.</p>
           </div>
           <div class="mini-proyecto">
-            <img src="img/trabajo-mini3.jpg" alt="Mini 3">
-            <p><strong>Detalle 3</strong></p>
-            <p class="mini-descripcion">Breve descripción del detalle 3.</p>
+            <img src="img/cartagena.webp" alt="Mini 3">
+            <p><strong>Costero</strong></p>
+            <p class="mini-descripcion">Brisa marina y tonos frescos que evocan la tranquilidad del océano.</p>
           </div>
           <div class="mini-proyecto">
-            <img src="img/trabajo-mini4.jpg" alt="Mini 4">
-            <p><strong>Detalle 4</strong></p>
-            <p class="mini-descripcion">Breve descripción del detalle 4.</p>
+            <img src="img/cali.webp" alt="Mini 4">
+            <p><strong>Vintage</strong></p>
+            <p class="mini-descripcion">Encanto del pasado con un toque de nostalgia y sofisticación</p>
           </div>
         </div>
       </div>
   
     </div>
   </section>  
+
+  <hr class="linea-divisoria">
+
+  
   
   <!-- Footer -->
   <footer class="footer">

@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }  
   
   body {
     font-family: 'Spectral', serif;
@@ -76,7 +80,7 @@
   }
 
  /* Logo */ 
-.logo-flotante {
+.logo-galerie {
     background: transparent;
     text-align: center;
     margin-top: 0px;
@@ -85,9 +89,9 @@
     position: relative;
   }
   
-  .logo-flotante h1 {
+  .logo-galerie h1 {
     font-size: 100px;
-    font-weight: 260;
+    font-weight: 350;
     font-family: 'Spectral', serif;
     color: black; 
     margin: 0;
@@ -100,8 +104,8 @@
     background-image: url('../img/hero1.jpg'); 
     background-size: auto;   
     background-repeat: no-repeat;     
-    background-position: center center; 
-    height: 100vh;
+    background-position: center; 
+    height: 180vh;
     color: white;
     display: flex;
     align-items: center;
@@ -137,14 +141,14 @@
 
   .linea-divisoria {
     border: none;
-    border-top: 2px solid #bbb;
-    margin: 20px auto;
-    width: 90%;
+    border-top: 2px solid #ccc;
+    margin: 50px auto 20px auto;
+    width: 95%;
   }  
-  
+
   .proyectos {
     padding: 60px 0;
-    background-color: #f9f9f9;
+    background-color: transparent;
   }
   
   .proyectos-container {
@@ -155,23 +159,23 @@
     padding: 0 20px;
   }
   
-  .proyecto-izquierda {
+  .nuestro-trabajo {
     flex: 1;
   }
   
-  .proyecto-izquierda img {
+  .nuestro-trabajo img {
     width: 100%;
     max-width: 500px;
     height: auto;
     margin-bottom: 20px;
   }
   
-  .proyecto-izquierda h2 {
+  .nuestro-trabajo h2 {
     font-size: 28px;
     margin-bottom: 10px;
   }
   
-  .proyecto-izquierda p {
+  .nuestro-trabajo p {
     font-size: 16px;
     color: #555;
   }
@@ -188,14 +192,14 @@
   
   .mini-proyecto img {
     width: 100%;
-    height: auto;
-    border-radius: 8px;
+    height: 350px;
+    object-fit: cover;
   }
   
   .mini-proyecto p {
     font-size: 14px;
     color: #333;
-    text-align: center;
+    text-align: left;
     margin-top: 8px;
   }
   
@@ -206,12 +210,13 @@
   }  
   
   .footer {
-    background-color: #1f2937; 
-    color: white;
+    background-color: transparent; 
+    color: black;
     text-align: center;
     padding: 24px 0; 
     margin-top: 40px; 
     font-family: 'Spectral', serif;
     font-size: 16px;
+    ;
   }
   
