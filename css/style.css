@@ -11,6 +11,7 @@
   
   body {
     font-family: 'Spectral', serif;
+    background-color: transparent;
   }
   
   /* BARRA DE NAVEGACION */
@@ -79,7 +80,7 @@
     transform: translateY(-1px); 
   }
 
- /* Logo */ 
+ /* LOGO */ 
 .logo-galerie {
     background: transparent;
     text-align: center;
@@ -98,6 +99,7 @@
     letter-spacing: 3px;
   }
 
+/* HERO */
 
   .hero {
     position: relative;
@@ -146,6 +148,7 @@
     width: 95%;
   }  
 
+  /* PROYECTOS */
   .proyectos {
     padding: 60px 0;
     background-color: transparent;
@@ -208,7 +211,152 @@
     color: #666;
     margin-top: 4px;
   }  
+
+/* HERO2 */
+  .hero2 {
+    position: relative;
+    background-image: url('../img/hero2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 140vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    color: white;
+    margin-top: 40px;
+  }
   
+  .hero2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .hero2-content {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+    padding: 0 20px;
+  }
+  
+  .hero2-content h2 {
+    font-size: 85px;
+    font-weight: 420;
+    margin-bottom: 20px;
+    letter-spacing: -px;
+  }
+  
+  .hero2-content p {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+   /* EXPERIENCIAS */
+
+   .experiencias {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .experiencias h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: 450;
+  }
+  
+  /* ESTILO EXPERIENCIAS*/
+
+  .experiencias-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin: auto;
+  }
+  
+  .experiencia {
+    width: 180px;
+    text-align: center;
+  }
+  
+  .experiencia img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .experiencia h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .experiencia p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .experiencia1 img {
+    height: 350px;
+    width: 220px;
+    object-fit: cover;
+  }
+  .experiencia1 img:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease;
+  }
+  
+  .experiencia2 img {
+    height: 350px;
+    width: 220px;
+    object-fit: cover;
+  }
+  .experiencia2 img:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+  }
+  
+  .experiencia3 img {
+    height: 350px;
+    width: 220px;
+    object-fit: cover;
+  }
+  .experiencia3 img:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+  }
+  
+  .experiencia4 img {
+    height: 350px;
+    width: 220px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  .experiencia4 img:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+  }
+  
+  .experiencia5 img {
+    height: 350px;
+    width: 220px;
+    object-fit: cover;
+  }
+  .experiencia5 img:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+  }
+  
+  
+  
+  
+
+  /* FOOTER */
   .footer {
     background-color: transparent; 
     color: black;
