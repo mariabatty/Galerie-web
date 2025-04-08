@@ -351,11 +351,103 @@
     transform: scale(1.05); 
     transition: transform 0.3s ease; 
   }
-  
-  
-  
-  
 
+  /*  INFORMACION */
+  
+  .informacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+    gap: 40px;
+  }
+  
+  .info-contenido {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .info-contenido h2 {
+    font-size: 60px;
+    font-weight:400;
+    margin-bottom: 300px;
+    line-height: 1.2;
+  }
+  
+  .info-contenido p {
+    font-size: 20px;
+    color: #555;
+    line-height: 2;
+    text-align: left;
+  }
+  
+  .info-imagen {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .info-imagen img {
+    width: 650px;
+    height: 750px;
+    display: block;
+    object-fit: cover;
+  }
+
+  /* ASESORIA */
+
+  .asesoria {
+    margin-top: 60px;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .asesoria p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  
+  .asesoria form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  
+  .asesoria input[type="email"] {
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px 5px;
+    font-size: 16px;
+    background-color: transparent;
+    width: 350px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .asesoria input[type="email"]:focus {
+    border-color: transparent;
+  }
+  
+  .asesoria button {
+    background: none;
+    color: #000;
+    border: none;
+    padding: 10px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-underline-offset: 4px;
+  }
+  
+  .asesoria button:hover {
+    color: #555;
+  }  
+  
   /* FOOTER */
   .footer {
     background-color: transparent; 
